@@ -1,3 +1,5 @@
+// import { SearchOutlined } from '@ant-design/icons'
+import { Button } from 'antd'
 import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 
@@ -26,6 +28,9 @@ const Search = props => {
 						className="field"
 					/>
 				</div>
+				{/* <Tooltip title="search"> */}
+				<Button type="primary" shape="circle" />
+				{/* </Tooltip> */}
 				<button type="submit">Search</button>
 				<hr />
 				<div className="currency-list">
